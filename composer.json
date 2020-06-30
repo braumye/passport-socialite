@@ -26,5 +26,12 @@
         "psr-4": {
             "Braumye\\PassportSocialite\\Tests\\": "tests/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Braumye\\PassportSocialite\\PassportSocialiteServiceProvider"
+            ]
+        }
     }
 }
